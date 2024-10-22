@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdApi", "AdApi.csproj", "{12E11DF8-5EF7-456A-8317-BCB6C82CD856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12E11DF8-5EF7-456A-8317-BCB6C82CD856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E11DF8-5EF7-456A-8317-BCB6C82CD856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E11DF8-5EF7-456A-8317-BCB6C82CD856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E11DF8-5EF7-456A-8317-BCB6C82CD856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0292CCB9-B2D1-490F-BC23-78FDCFDAD0A0}
+	EndGlobalSection
+EndGlobal

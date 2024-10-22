@@ -1,0 +1,50 @@
+﻿@AdApi_HostAddress = http://localhost:5096
+
+GET {{AdApi_HostAddress}}/api/ads
+
+###
+
+POST {{AdApi_HostAddress}}/api/ads
+Content-Type: application/json
+
+{
+ "description": "Selling a bike",
+  "price": 150.00,
+  "sellerId": 1,
+  "categoryId": 2
+}
+
+###
+
+GET {{AdApi_HostAddress}}/api/ads/1
+
+###
+
+PUT {{AdApi_HostAddress}}/api/ads/1
+Content-Type: application/json
+
+{
+ "id": 1,
+  "description": "Selling a used bike",
+  "price": 120.00,
+  "sellerId": 1,
+  "categoryId": 2
+}
+
+###
+
+DELETE {{AdApi_HostAddress}}/api/ads/1
+
+###
+
+GET {{AdApi_HostAddress}}/api/ads/seller/{sellerId}
+
+###
+
+GET {{AdApi_HostAddress}}/api/ads/seller/1
+
+###
+
+GET {{AdApi_HostAddress}}/api/ads/category/1
+
+###
